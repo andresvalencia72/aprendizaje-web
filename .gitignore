@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+
+# Archivos de compilación
+dist/
+build/
+*.log
+
+# Dependencias y archivos de configuración específicos de entorno
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.env.local
+.eslintcache
+.pnp.js
+.cache/
+yarn-error.log
+yarn.lock
+npm-debug.log*
+
+# Dependencias específicas de package-lock.json
+package-lock.json
+
+# Dependencias específicas de pnpm
+pnpm-lock.yaml
+
+# Dependencias específicas de Visual Studio Code
+.vscode/
+
+# Archivos multimedia
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.ico
+*.svg
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.mkv
+*.flv
+*.webm
+
+# Archivos de datos
+*.csv
+*.xls
+*.xlsx
+*.json
+
+# Proyectos Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+/build/
